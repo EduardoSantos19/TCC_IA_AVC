@@ -1,0 +1,2 @@
+# Gera o arquivo com as dependências
+pip freeze > requirements.txt
