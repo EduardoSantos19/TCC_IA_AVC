@@ -1,0 +1,4 @@
+echo "" > Data/raw/.gitkeep
+echo "" > Data/processed/.gitkeep
+echo "" > Results/models/.gitkeep
+echo "" > Results/plots/.gitkeep

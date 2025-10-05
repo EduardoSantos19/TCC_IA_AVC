@@ -1,0 +1,12 @@
+{
+    "python.analysis.extraPaths": [
+        "./Config"
+    ]
+}
+
+{
+    "python.analysis.extraPaths": [
+        "./config",
+        "./Src"
+    ]
+}

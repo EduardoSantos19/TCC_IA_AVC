@@ -1,33 +1,14 @@
-# Dados e modelos
-data/
-models/
+# .gitignore
+Data/raw/
+Data/processed/
+Results/models/
+Results/plots/
 *.h5
 *.keras
-*.pkl
-*.joblib
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.env
-*.egg-info/
-.ipynb_checkpoints/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Logs
 *.log
-logs/
-.DS_Store
-Thumbs.db
+
+# Manter apenas a estrutura de pastas vazia
+!Data/raw/.gitkeep
+!Data/processed/.gitkeep  
+!Results/models/.gitkeep
+!Results/plots/.gitkeep
