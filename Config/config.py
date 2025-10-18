@@ -26,6 +26,15 @@ logging.basicConfig(
 # Criar logger global
 logger = logging.getLogger("app")
 
+# Em Config/config.py - Adicione:
+RISCO_THRESHOLDS = {
+    'risco_minimo': (0, 15),      # 0-15% - Normal/Baixo risco
+    'risco_moderado': (16, 35),   # 16-35% - Alterações sutis
+    'risco_alto': (36, 60),       # 36-60% - Alterações significativas  
+    'risco_muito_alto': (61, 85), # 61-85% - Alta probabilidade
+    'emergencia': (86, 100)       # 86-100% - Evidências claras
+}
+
 # Seed para reprodutibilidade
 SEED = 42
 random.seed(SEED)

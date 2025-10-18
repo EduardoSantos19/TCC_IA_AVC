@@ -32,7 +32,7 @@ def test_model_on_dataset(model_path, dataset_dir, true_class):
 if __name__ == "__main__":
     from Config.config import PROCESSED_POSITIVE_DIR, PROCESSED_NEGATIVE_DIR, PROCESSED_UNKNOWN_DIR
     
-    model_path = 'Results/models/modelo_v2_3000imagens.h5'
+    model_path = 'Results/models/modelo_v3_5020imagens.h5'
     
     print('🚀 TESTE COMPLETO DO MODELO\n')
     
